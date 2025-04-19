@@ -1,7 +1,7 @@
 # Feature Engineering
 
 ## Introduction  
-This document describes a reproducible pipeline for transforming preprocessed Fitbit exercise and sleep logs into a unified, analysis‑ready dataset. Raw JSON exports—each indexed by user—are stored in the `data/processed` directory. The resulting output consolidates daily activity and rest metrics into a single table, facilitating downstream statistical analysis and machine learning applications.
+This code transforms preprocessed Fitbit exercise and sleep logs into a unified, analysis‑ready dataset. Raw JSON exports—each indexed by user—are stored in the `data/processed` directory. The resulting output consolidates daily activity and rest metrics into a single table, facilitating downstream statistical analysis and machine learning applications.
 
 ## Overview  
 The integration workflow comprises four principal stages:
