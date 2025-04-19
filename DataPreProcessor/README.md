@@ -4,10 +4,10 @@ This script processes raw Fitbit data for multiple usersgit commit -m  and gener
 
 ## Overview
 
-- Iterates through each user directory located under the `data/raw/` folder.
+- Iterates through each user directory located under the `../data/raw/` folder.
 - Reads `exercise.json` and `sleep.json` files from each user's `fitbit` subfolder.
 - Filters and retains only the relevant fields from each file.
-- Aggregates the cleaned exercise and sleep data into two separate JSON files located in the `data/processed/` folder.
+- Aggregates the cleaned exercise and sleep data into two separate JSON files located in the `../data/processed/` folder.
 - Logs file read and write status messages into the `logs/` directory for tracking and debugging.
 
 ## Functionality
@@ -18,7 +18,7 @@ This script processes raw Fitbit data for multiple usersgit commit -m  and gener
 - Processed outputs are saved as `exercise.json` and `sleep.json` in the `../data/processed/` directory.
 - Log files are created for both exercise and sleep processing to monitor progress and errors.
 
-Download raw data from: [Data](https://datasets.simula.no/pmdata/?utm_source=chatgpt.com)
+Download raw data from: [Data](https://datasets.simula.no/pmdata/)
 
 Ensure that raw data is available in the following structure: 
 ```
