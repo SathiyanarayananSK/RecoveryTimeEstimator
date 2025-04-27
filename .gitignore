@@ -3,3 +3,4 @@ data/raw/
 .idea/
 DataPreProcessor/__pycache__/
 FeatureEngineering/__pycache__/
+.ipynb_checkpoints/
